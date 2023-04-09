@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.rtl.min.css" integrity="sha384-T5m5WERuXcjgzF8DAb7tRkByEZQGcpraRTinjpywg37AO96WoYN9+hrhDVoM6CaT" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/styleKeranjang.css">
+    <title>Welcome To Heelios Sneekers /^_^/</title>
+  </head>
+  <body>
+  
+        <!--Awal Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+              <img src="../assets/logo.jpg" alt="Logo" width="50" height="50" class="me-1">
+                Heelios<strong>Store</strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <form class="d-flex ms-auto my-4 my-lg-0">
+                <input class="form-control me-2" type="search" placeholder="Cari Barang Anda" aria-label="Search">
+                <button class="btn btn-light me-2" type="submit">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                  </svg>
+                </button>
+            </form>
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="homepage.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="singleproduk.html">Produk</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="keranjang.html">Keranjang</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="register.html">Daftar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Masuk</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--Akhir Navbar-->
+
+      <!--Breadcrumb-->
+      <div class="container">
+        <nav aria-label="breadcrumb" style="background-color: #fff;" class="mt-3">
+            <ol class="breadcrumb p-3">
+              <li class="breadcrumb-item"><a href="homepage.html" class="text-decoration-none">Home</a></li>
+              <li class="breadcrumb-item active">/<a href="singleproduk.html" class="text-decoration-none">Produk</a></li>
+              <li class="breadcrumb-item active"><a href="keranjang.html" class="text-decoration-none">Keranjang</a></li>
+            </ol>
+        </nav>
+      </div>
+      <!--Akhir Breadcrumb-->
+
+      <!--Awal Keranjang-->
+      <div class="container">
+        <div class="row row-produk">
+            <div class="col table-responsive mt-4 mx-3">
+                <table class="table">
+                    <thead class="table-secondary">
+                      <tr>
+                        <th scope="col" class="th-header">Hapus</th>
+                        <th scope="col" class="th-header">Gambar</th>
+                        <th scope="col" class="th-header">Produk</th>
+                        <th scope="col" class="th-header">Harga</th>
+                        <th scope="col" class="th-header">Jumlah</th>
+                        <th scope="col" class="th-header">Subtotal</th>
+                      </tr>
+                    </thead>
+                    <tbody class="align-middle">
+                      <tr>
+                        <th scope="row"><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle text-dark fs-4" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                          </svg></a></th>
+                        <td><img src="../assets/produk/produk2.jpg" class="img-keranjang"></td>
+                        <td>Vulcanise Cute Shoes</td>
+                        <td>Rp 186.000</td>
+                        <td>
+                            <button type="button" class="btn btn-dark btn-sm"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-lg" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
+                          </svg></button>
+                          <span class="mx-2">1</span>
+                          <button type="button" class="btn btn-dark btn-sm"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+                          </svg></button></td>
+                        <td>Rp 186.000</td>
+                      </tr>
+                      <tr>
+                        <th scope="row"><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle text-dark fs-4" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                          </svg></a></th>
+                        <td><img src="../assets/produk/produk3.jpg" class="img-keranjang"></td>
+                        <td>Femme Sneakers Casual</td>
+                        <td>Rp 315.000</td>
+                        <td>
+                            <button type="button" class="btn btn-dark btn-sm"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-lg" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
+                          </svg></button>
+                          <span class="mx-2">1</span>
+                          <button type="button" class="btn btn-dark btn-sm"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+                          </svg></button></td>
+                        <td>Rp 315.000</td>
+                      </tr>
+                      <tr>
+                        <th scope="row"><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle text-dark fs-4" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                          </svg></a></th>
+                        <td><img src="../assets/produk/produk9.jpg" class="img-keranjang"></td>
+                        <td>Velcro White Shoes</td>
+                        <td>Rp 235.000</td>
+                        <td>
+                            <button type="button" class="btn btn-dark btn-sm"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-lg" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
+                          </svg></button>
+                          <span class="mx-2">1</span>
+                          <button type="button" class="btn btn-dark btn-sm"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+                          </svg></button></td>
+                        <td>Rp 235.000</td>
+                      </tr>
+                      <tr>
+                        <th scope="row"><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle text-dark fs-4" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                          </svg></a></th>
+                        <td><img src="../assets/produk/produk7.jpg" class="img-keranjang"></td>
+                        <td>Pstel Gothic Sneakers</td>
+                        <td>Rp 269.000</td>
+                        <td>
+                            <button type="button" class="btn btn-dark btn-sm"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-lg" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
+                          </svg></button>
+                          <span class="mx-2">1</span>
+                          <button type="button" class="btn btn-dark btn-sm"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+                          </svg></button></td>
+                        <td>Rp 269.000</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+
+        <div class="row row-produk">
+            <div class="col table-responsive">
+                <table class="table ms-auto text-center mb-5 mt-3 mx-3" id="table-checkout">
+                    <thead class="table-secondary">
+                      <tr>
+                        <th scope="col" colspan="2" class="th-header text-center">Total Keranjang Belanja</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="fw-bold th-header">Total Harga</td>
+                        <td class="th-header">Rp 2.000.000</td>
+                      </tr>
+                      <tr>
+                        <td colspan="2" class="th-header">
+                            <div class="btn-checkout d-grid">
+                                <button class="btn btn-dark btn-sm ms-4">Lanjutkan Checkout</button>
+                            </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+      </div>
+      <!--Akhir Keranjang-->
+
+      <!--Footer-->
+      <footer class="bg-light p-5 mt-5">
+        <div class="container">
+          <div class="row mt-2">
+            <div class="col-md-6 text-md-start text-center pt-2 pb-2">
+              <a href="#" style="text-decoration: none;">
+                <img src="../assets/logo.jpg" style="width: 40px;">
+              <span>Copyright 2023 | Created with <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+              </svg> by Heelios Store</span>
+              </a>
+            </div>
+
+            <div class="col-md-6 text-md-end text-center pt-2 pb-2">
+              <a href="#" style="text-decoration: none;">
+                <img src="../assets/sosialMedia/facebook.png" class="ms-2" style="width: 32px;">
+              </a>
+              <a href="#" style="text-decoration: none;">
+                <img src="../assets/sosialMedia/instagram.png" class="ms-2" style="width: 30px;">
+              </a>
+              <a href="#" style="text-decoration: none;">
+                <img src="../assets/sosialMedia/twitter.png" class="ms-2" style="width: 30px;">
+              </a>
+              <a href="#" style="text-decoration: none;">
+                <img src="../assets/sosialMedia/linkedin.png" class="ms-2" style="width: 30px;">
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--Akhir Footer-->
+      
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
